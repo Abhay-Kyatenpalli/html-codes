@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFD1DC; /* Pastel pink background */
+  margin: 0;
+  overflow: hidden;
+}
+
+.paper {
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 1px 15px 20px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px; /* Adjusted for better layout */
+  text-align: center;
+}
+
+.paper:hover {
+  box-shadow: 1px 20px 30px rgba(0, 0, 0, 0.6);
+  transform: scale(1.05);
+}
+
+img {
+  max-height: 200px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  user-select: none;
+}
+
+p {
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+  color: #4B0082; /* Indigo for a romantic vibe */
+  margin: 10px 0 0;
+  line-height: 1.5;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  user-select: none;
+}
+
+.paper.image {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
